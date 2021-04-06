@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Пружинный маятник</title>
+    <link rel="stylesheet" href="./style.css"/>
+    
+</head>
+
+<body>
+	<div class="main-section">
+        <div class="visual-area">
+            <canvas class="Harmonic-oscillator"></canvas>
+            <button class="Start">Start</button>
+            <button class="Stop">Stop</button>
+        </div>
+        <div class="right-area">
+            <div class="options-area">
+                <p class="options-area-title">Параметры</p>
+                <div class="options-area-list">
+                    <div class='mass-load-stroke'>
+                        <p class="mass-load-title>">Масса m, кг</p>
+                        <p class='mass-load-value'>0.5</p>
+                        <input type="range" min='0.5' max='1' step='0.1' class="mass-load-input">
+                    </div>
+                    <div class='spring-rate-stroke'>
+                        <p class="spring-rate-title">Жесткость пружины k, Н/м</p>
+                        <p class='spring-rate-value'>5</p>
+                        <input type="range" min='5' max='9' step='1' class="spring-rate-input">
+                    </div>
+                    <div class='deviation-stroke'>
+                        <p class="deviation-title">Первоначальное отклонение x0, см</p>
+                        <p class='deviation-value'>10</p>
+                        <input type="range" min='0' max='20' step='2' class="deviation-input">
+                    </div>
+                </div>
+            </div>
+            <div class="specs-area">
+                <p class="specs-area-title">Характеристики</p>
+                <div class="specs-area-list">
+                    <p class="frequency">Циклическая частота</p>
+                    <p class='oscillation-time'>Время колебаний = 0</p>
+                    <p class='oscillations-count'>Количество полных колебаний</p>
+                    <p class='coordinates'>Координата x</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+	
+	<script src='./script.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.visual-area {
+    width: 50%;
+    
+}
+.right-area {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.options-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    }
+.specs-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 60vmh;
+    width: auto;
+}
+.options-area-title {
+    position: absolute;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8vw;    
+}
+.options-area-list{
+    width: 80%;
+    box-sizing:border-box;
+    position: absolute;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4vw;
+    
+}
+.mass-load-stroke {
+    position: relative;
+    display: flex;
+    justify-content: space-between;    
+}
+.spring-rate-stroke {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.deviation-stroke{
+    position: relative;
+    display: flex;
+    justify-content: space-between;    
+}
+input[type="range"] {
+    width: 25%;
+}
+.specs-area {
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.specs-area-list{
+    width: 80%;
+    box-sizing:border-box;
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4vw;
+}
+.specs-area-title{
+    position: absolute;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+}
+canvas {
+    width: 100%;
+    height: 80%;
+}
+.Stop {
+    visibility: hidden;
+}
